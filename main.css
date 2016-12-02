@@ -33,12 +33,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 ol{
-
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-li{
-
-}
 
 p{
 
@@ -56,6 +55,7 @@ a{
 .hero {
 	background-color: #3f51bf;
 	color: #fff;
+	margin-bottom: 40px;
 	padding: 40px 0;
 	text-align: center;
 }
@@ -70,6 +70,34 @@ a{
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
+
+/*******************************************************************
+*	News
+------------------------------------------------------------------*/
+
+.news-item{
+	border-bottom: 1px solid #b6b6b6;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.news-link{
+	color: #3f51bf;
+	font-size: 24px;
+}
+
+/******************************************************************
+*	Content
+------------------------------------------------------------------*/
+
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+
+
 
 
 
